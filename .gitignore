@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript (if added later)
+*.tsbuildinfo
+
+# Cache
+.cache/
+.temp/
+
+# Optional: coverage
+coverage/
+
+# Optional: lock files (keep if working in team)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
